@@ -1,0 +1,45 @@
+.counter-wrapper {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.count-text {
+	display: block;
+	margin: 0 auto;
+	font-weight: bold;
+	text-align: center;
+	font-size: 26px;
+	color: #000;
+}
+
+.button-wrapper {
+	max-width: 50%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.button {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	text-align: center;
+	border: 1px solid #8c0402;
+	background: #fefefe;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	font-size: 32px;
+}
+
+.increment {
+	background: green;
+	border-color: green;
+}
+
+.decrement {
+	background: red;
+	border-color: red;
+}
